@@ -66,42 +66,42 @@
             top: 10%;
             width: calc(100% - 4px);
             height: 6vh;
-            background: #673A76;
+            background: #ffffff;
             display: block;
             border-radius: 10px;
             font-size: calc(2px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
             line-height: 6vh;
             text-align: center;
-            color: #fff;
+            color: rgb(255, 0, 0);
             font-weight: 500;
             border: 1px solid #fff;
             cursor: pointer;
             transition: all 0.5s;
         }
         .slide_5_box_2_button_1:hover{
-            color: rgb(255, 0, 0);
-            background: #ffffff;
+            color: rgb(255, 255, 255);
+            background: #014982;
         }
         .slide_5_box_2_button_2{
             position: absolute;
             top: 60%;
             width: calc(100% - 4px);
             height: 6vh;
-            background: #006600;
+            background: #ffffff;
             display: block;
             border-radius: 10px;
             font-size: calc(2px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
             line-height: 6vh;
             text-align: center;
-            color: #fff;
+            color: rgb(255, 0, 0);
             font-weight: 500;
             border: 1px solid #fff;
             cursor: pointer;
             transition: all 0.5s;
         }
         .slide_5_box_2_button_2:hover{
-            color: rgb(255, 0, 0);
-            background: #ffffff;
+            color: rgb(255, 255, 255);
+            background: #014982;
         }
 
 /* box 3 */
