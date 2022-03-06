@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: mwf-segoe,Segoe UI,Segoe,sans-serif;
+    overflow: hidden;
+}
+.nav{
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(22,35,57,0.5);
+    width: calc(220px + (26) * ((100vw - 100px) / (1200 - 800)));
+    height: 100vh;
+    position: absolute;
+    
+}
+.img{
+    position: relative;
+    left: 0;
+}
+.img a{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 38px;
+    font-family: mwf-segoe,Segoe UI,Segoe,sans-serif;
+    top: 38px;
+    left: 20px;
+    position: relative;
+}
+.logo{
+    position: relative;
+    height: 82px;
+    margin: 38px 0px 0px 40px;
+    float: left;
+}
+.navbar{
+    margin: 40px 6px 70px 0%;
+}
+.navbar li{
+    list-style: none;
+    
+}
+.bar_Y_animation_1{
+    position: relative;
+    animation: li_1 1s;
+    left: 0;
+}
+@keyframes li_1{
+    0%{left: -1000px;}
+    100%{left: 0}
+}
+.bar_Y_animation_2{
+    position: relative;
+    animation: li_1 1.5s;
+    left: 0;
+}
+@keyframes li_2{
+    0%{left: -1000px;}
+    100%{left: 0}
+}
+.bar_Y_animation_3{
+    position: relative;
+    animation: li_1 2s;
+    left: 0;
+}
+@keyframes li_3{
+    0%{left: -1000px;}
+    100%{left: 0}
+}
+.bar_Y_animation_4{
+    position: relative;
+    animation: li_1 2.5s;
+    left: 0;
+}
+@keyframes li_4{
+    0%{left: -1000px;}
+    100%{left: 0}
+}
+.bar_Y_animation_5{
+    position: relative;
+    animation: li_1 3s;
+    left: 0;
+}
+@keyframes li_5{
+    0%{left: -1000px;}
+    100%{left: 0}
+}
+.bar_Y_animation_6{
+    position: relative;
+    animation: li_1 3.5s;
+    left: 0;
+}
+@keyframes li_6{
+    0%{left: -1000px;}
+    100%{left: 0}
+}
+.navbar li .text{
+    display: block;
+    width: 280px;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: calc(4px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    line-height: 60px;
+    font-weight: 600;
+    color: #fff;
+    font-family: mwf-segoe,Segoe UI,Segoe,sans-serif;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.navbar li .text:hover{
+    opacity: 1;
+}
+.navbar li .text.active{
+    opacity: 1;
+}
+.icon{
+    margin-left: calc(4px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    font-size:20px;
+    width: 40px;
+}
+
+
+/* slide */
+.slidershow{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.navigation{
+    bottom: 10px;
+    left: calc((100vw + (220px + (26) * ((100vw - 100px) / (1200 - 800))))/2 );
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+}
+
+.bar_X{
+    width:calc(2px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    height:calc(2px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    border: 1.5px solid #FFF;
+    border-radius:30px;
+    margin: 10px;
+    cursor: pointer;
+    z-index: 100;
+    transition: 0.5s;
+}
+.bar_X.active{
+    background-color:white;
+}
+.bar_X:hover{
+    background-color:rgba(255, 255, 255, 0.459);
+    transition: 0.2s;
+}
+.bar_Y{
+    width: 280px;
+    height: calc(25px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    margin-top: 5vh;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    transition: 0.1s;
+    border-left: 3px solid rgba(255, 255, 255, 0);
+    transition: 0.5s;
+}
+.bar_Y.active{
+    border-left: 3px solid rgb(241, 223, 52);
+}
+.bar_Y:hover{
+    border-left: 3px solid #fff;
+}
+
+
+.bar:hover{
+    background: #fff;
+    border: 2px solid red;
+}
+
+input[name = "bottom"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 800%;
+    height: 100vh;
+    display: flex;
+}
+
+.slide{
+    width:calc(100% / 6);
+    transition: 0.6s;
+    position: relative;
+}
+
+.slide_background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#bottom_1:checked ~ .s1{
+    margin-left: 0;
+}
+#bottom_2:checked ~ .s1{
+    margin-left: calc((-100% / 6)*1);
+}
+#bottom_3:checked ~ .s1{
+    margin-left: calc((-100% / 6)*2);
+}
+#bottom_4:checked ~ .s1{
+    margin-left: calc((-100% / 6)*3);
+}
+#bottom_5:checked ~ .s1{
+    margin-left: calc((-100% / 6)*4);
+}
+#bottom_6:checked ~ .s1{
+    margin-left: calc((-100% / 6)*5);
+}
+

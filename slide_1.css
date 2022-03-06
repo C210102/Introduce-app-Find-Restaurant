@@ -1,0 +1,29 @@
+.slide_1_logo{
+    width: calc(40px + 14vw);
+    top: calc((100% - (100px + 10vw))/2);
+    left: calc(200px + 10%);
+    border-radius: 10%;
+    box-shadow: -8px 8px 8px -4px #4b4a4a;
+    position: absolute;
+}
+.slide_1_phone{
+    height: 80vh;
+    top: calc((100% - 80vh)/2);
+    left: calc(200px + 47%);
+    position: absolute;
+}
+.slide_1_name{
+    position: absolute;
+    font-size: 54px;
+    top: calc((100% - 250px)/2 );
+    left: calc(200px + 24.5%);
+    color: #173D74;
+}
+.slide_1_text{
+    position: absolute;
+    font-size: 24px;
+    top: calc((100% - 250px)/2 + 180px);
+    left: calc(200px + 24.5%);
+    width: 28vw;
+    color: white;
+}

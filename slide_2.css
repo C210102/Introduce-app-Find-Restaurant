@@ -1,0 +1,78 @@
+.slide_2_img_all{
+    position: absolute;
+    width: calc(100vw - (220px + (26) * ((100vw - 100px) / (1200 - 800))));
+    height: calc(100vh - 135px);
+    top: 115px;
+    left: calc(220px + (26) * ((100vw - 100px) / (1200 - 800)));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slide_2_img_all:hover .slide_2_phone_2{
+    margin-right:-10vw;
+    height: 58vh;
+    transition: 1s;
+    position: relative;
+}
+.slide_2_img_all:hover .slide_2_phone_3{
+    margin-right:-10vw;
+    height: 58vh;
+    transition: 1s;
+    position: relative;
+}
+.slide_2_img_all:hover .slide_2_phone_4{
+    margin-right:-10vw;
+    height: 58.5vh;
+    transition: 1s;
+    position: relative;
+}
+.slide_2_img_all:hover .slide_2_phone_5{
+    margin-right:0vw;
+    height: 57vh;
+    transition: 1s;
+    position: relative;
+}
+
+.slide_2_phone_2{
+    margin-right:-40vw;
+    height: 54vh;
+    transition: 1s;
+    position: relative;
+}
+.slide_2_phone_3{
+    margin-right:-40vw;
+    height: 54vh;
+    transition: 1s;
+    position: relative;
+}
+.slide_2_phone_4{
+    margin-right:-40vw;
+    height: 54.5vh;
+    transition: 1s;
+    position: relative;
+}
+.slide_2_phone_5{
+    margin-right:0vw;
+    height: 58vh;
+    transition: 1s;
+    position: relative;
+}
+.slide_2_text_1{
+    position: absolute;
+    font-size: calc(15px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    font-weight: 700;
+    top: calc(16px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    left: calc(200px + (100vw - (100vw/2 + 135px))/2);
+    color: #173D74;
+    width: calc((100vw / 2) + 70px);
+    text-align:center;
+}
+.slide_2_text_2{
+    position: absolute;
+    font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    top: calc(106px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    left: calc(220px + (26) * ((100vw - 100px) / (1200 - 800)));
+    width: calc(100vw - (220px + (26) * ((100vw - 100px) / (1200 - 800))));
+    color: #173D74;
+    text-align:center;
+}

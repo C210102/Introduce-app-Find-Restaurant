@@ -1,0 +1,182 @@
+.slide_5_title{
+    position: absolute;
+    top: calc(32px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    left: calc(220px + (26) * ((100vw - 100px) / (1200 - 800)));
+    width: calc(100vw - (220px + (26) * ((100vw - 100px) / (1200 - 800))));
+    font-size: calc(18px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    font-weight: 700;
+    color: #173D74;
+    text-align:center;
+    text-transform:uppercase;
+    z-index: 10;
+}
+.slide_5_big_box{
+    position: absolute;
+    top: 85px;
+    left: calc(220px + (26) * ((100vw - 100px) / (1200 - 800)));
+    width: calc(100vw - (220px + (26) * ((100vw - 100px) / (1200 - 800))));
+    height: calc(100vh - 110px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* box 1 */
+.slide_5_box_1{
+    margin-left: 4vw;
+    width: 20vw;
+    height: 72%;
+    background:#1B72B8;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    position: relative;
+    overflow: visible;
+}
+
+/* box 2 */
+.slide_5_box_2{
+    width: 20vw;
+    height: 72%;
+    background:#1B72B8;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    position: relative;
+    overflow: visible;
+}
+    .slide_5_box_2_phone_1{
+        position: absolute;
+        width: 6vw;
+        top: calc((100% - 10vw)/2);
+        left: 2vw;
+        transition: all 0.5s;
+    }
+    .slide_5_box_2_phone_1:hover{
+        transform: scale(1.1);
+    }
+    .slide_5_box_2_button{
+        position: absolute;
+        width: 9.5vw;
+        height: 18vh;
+        top: calc((100% - 8vw)/2);
+        left: 9vw;
+        transition: all 0.5s;
+    }
+        .slide_5_box_2_button_1{
+            position: absolute;
+            top: 10%;
+            width: calc(100% - 4px);
+            height: 6vh;
+            background: #673A76;
+            display: block;
+            border-radius: 10px;
+            font-size: calc(2px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+            line-height: 6vh;
+            text-align: center;
+            color: #fff;
+            font-weight: 500;
+            border: 1px solid #fff;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+        .slide_5_box_2_button_1:hover{
+            color: rgb(255, 0, 0);
+            background: #ffffff;
+        }
+        .slide_5_box_2_button_2{
+            position: absolute;
+            top: 60%;
+            width: calc(100% - 4px);
+            height: 6vh;
+            background: #006600;
+            display: block;
+            border-radius: 10px;
+            font-size: calc(2px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+            line-height: 6vh;
+            text-align: center;
+            color: #fff;
+            font-weight: 500;
+            border: 1px solid #fff;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+        .slide_5_box_2_button_2:hover{
+            color: rgb(255, 0, 0);
+            background: #ffffff;
+        }
+
+/* box 3 */
+.slide_5_box_3{
+    margin-right: 4vw;
+    width: 20vw;
+    height: 72%;
+    background:#1B72B8;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    position: relative;
+    overflow: visible;
+}
+
+/* chung 3 box*/
+.slide_5_text_1{
+    position: absolute;
+    top: -25px;
+    left: calc((100% - 50px)/2);
+    color: #fff;
+    background:#014982;
+    width: 54px;
+    height: 54px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    font-size: calc(4px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    line-height: 50px;
+    font-weight: bold;
+}
+.slide_5_text_2{
+    position: absolute;
+    top: 36px;
+    left: 1vw;
+    width: 18vw;
+    color: #fff;
+    text-align: center;
+    font-size: calc(4px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    line-height: 26px;
+    font-weight: bold;
+}
+.slide_5_sign{
+    position: absolute;
+    width: 14vw;
+    top: 28%;
+    left: 3vw;
+    transition: all 0.5s;
+}
+.slide_5_sign:hover{
+    width: 15vw;
+    left: 2.5vw;
+}
+.slide_5_button{
+    position: absolute;
+    width: 16vw;
+    height: 6vh;
+    bottom: 10%;
+    left: 2vw;
+    color: #243A5E;
+    background-color: #FFC93B;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 6vh;
+    font-size: calc(3px + (26 - 14) * ((100vw - 300px) / (1200 - 300)));
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.slide_5_button:hover{
+    color: #fff;
+    background-color: rgb(253, 106, 53);
+    border-top-left-radius:15px 15px;
+    border-top-right-radius:15px 15px;
+    border-bottom-right-radius:15px 15px;
+    border-bottom-left-radius:15px 15px;
+}
